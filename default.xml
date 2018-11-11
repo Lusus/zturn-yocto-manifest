@@ -13,5 +13,5 @@
   <project name="meta-qt5/meta-qt5" path="poky/meta-qt5" remote="github" />
   <project name="meta-xilinx" path="poky/meta-xilinx" remote="yocto" />
   <project name="openembedded/meta-linaro" path="poky/meta-linaro" remote="linaro" />
-  <project name="Lusus/meta-zturn" path="poky/meta-zturn" remote="github" upstream="master" revision="master"/>
+  <project name="Lusus/meta-zturn" path="poky/meta-zturn" remote="github"/>
 </manifest>

@@ -1,5 +1,5 @@
-zturn-angstrom-manifest
-=======================
+zturn-poky-manifest
+===================
 
 Quick hack Yocto Repo manifest repository, for zturn board. Originally based on https://github.com/Lusus/zturn-angstrom-manifest.
 
