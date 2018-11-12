@@ -33,15 +33,28 @@ When downloading from behind a proxy (which is common in some corporate environm
 Setup Yocto Environment and building
 ------------------------------------
 First enter the poky directory:
+
 	$ cd poky
+
 For first-time initialisation run
+
 	$ TEMPLATECONF=meta-zturn/conf source oe-init-build-env
+
 For subsequent runs use
+
 	$ source oe-init-build-env
 
 Now an image can be built:
+
 	$ MACHINE=<machine> bitbake <image>
-	e.g. MACHINE=zturn-zynq7 bitbake zturn-image
+
+For example:
+
+	$ MACHINE=zturn-zynq7 bitbake zturn-image
+
+You should be able to get away with:
+
+	$ bitbake zturn-image
 
 Deploying to SD-card
 --------------------
